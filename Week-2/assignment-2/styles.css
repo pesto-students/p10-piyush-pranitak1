@@ -48,39 +48,3 @@
 .container:hover #box4 {
     transform: translate(-50%, -50%) rotateZ(-90deg);
 } 
-
-
-
-
-/* .container {
-    width: 400px;
-    height: 400px;
-    border: 2px solid black;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .rbox {
-    flex-basis: 50%;
-    height: 50%;
-    border: 1px solid rgb(255, 0, 0);
-  }
-
-  .bbox {
-    flex-basis: 50%;
-    height: 50%;
-    border: 1px solid rgb(89, 0, 255);
-  }
-
-  .gbox {
-    flex-basis: 50%;
-    height: 50%;
-    border: 1px solid rgb(3, 248, 3);
-  }
-
-  .ybox {
-    flex-basis: 50%;
-    height: 50%;
-    border: 1px solid rgb(255, 251, 3);
-  }
-   */
