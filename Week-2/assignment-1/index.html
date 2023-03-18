@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week-2 Assignment-2.1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Lorem Ipsum Website</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices euismod odio a malesuada.</p>
+	</header>
+
+	<main>
+		<section>
+			<article>
+				<h2>The Origins of Lorem Ipsum</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet mauris eu felis sagittis imperdiet. Aenean sed odio ac nisl ultrices pellentesque.</p>
+				<a href="http://www.lipsum.com/feed/html">Read more</a>
+			</article>
+
+			<article>
+				<h2>Using Lorem Ipsum in Design</h2>
+				<p>Pellentesque aliquam lorem non felis gravida, vel fermentum velit finibus. Fusce suscipit lectus vel massa aliquam venenatis. Nullam sagittis elit eu metus iaculis, eget dignissim nulla mollis.</p>
+				<a href="http://www.lipsum.com/feed/html">Read more</a>
+			</article>
+
+			<article>
+				<img src="https://www.w3schools.com/images/picture.jpg" alt="Sample Image">
+			</article>
+
+			<article>
+				<h2>The Role of Lorem Ipsum in Publishing</h2>
+				<p>Sed maximus mi in quam laoreet, a luctus velit suscipit. Nunc vel ullamcorper odio. Maecenas nec magna vel mauris dignissim interdum.</p>
+				<a href="http://www.lipsum.com/feed/html">Read more</a>
+			</article>
+		</section>
+			
+		<section class="sec">
+
+			<article>
+				<form>
+					<label for="title">Title:</label>
+					<input type="radio" id="mr" name="title" value="mr">
+					<label for="mr">Mr</label>
+					<input type="radio" id="miss" name="title" value="miss">
+					<label for="miss">Miss</label>
+					<input type="radio" id="mrs" name="title" value="mrs">
+					<label for="mrs">Mrs</label><br><br>
+
+					<label for="name">First Name:</label>
+					<input type="text" id="fname" name="name" required><br><br>
+
+					<label for="name">Last Name:</label>
+					<input type="text" id="lname" name="name" required><br><br>
+					
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+					
+					<label for="phone">Phone Number:</label>
+					<input type="tel" id="phone" name="phone" required pattern="[0-9]{10}"><br><br>
+  									  
+					<label for="gender">Gender:</label>
+					<input type="radio" id="male" name="gender" value="male">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="female">Female</label><br><br>
+				
+					<label for="country">Country:</label>
+					<select id="country" name="country">
+					<option value="india">India</option>
+					<option value="canada">Canada</option>
+					<option value="uk">UK</option>
+					</select><br><br>
+				
+					<label for="message">Message:</label>
+					<textarea id="message" name="message" rows="4" cols="20"></textarea><br><br>
+				
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+					
+					<label for="confirm-password">Confirm Password:</label>
+					<input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+					<input type="checkbox" id="agree" name="agree">
+					<label for="agree">I agree to the terms and conditions</label><br><br>
+					
+					<input type="submit" value="Submit">
+				</form>
+			</article>
+
+		</section>
+	</main>
+
+	<footer>
+		<p>This website was created by Pranita Turrey to provide helpful answers and insights to users.</p>
+	</footer>
+</body>
+</html>
