@@ -1,0 +1,50 @@
+.container {
+    margin-top: 150px;
+    margin-left: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.box {
+    transition: transform 0.5s ease;
+}
+
+#box1 {
+    transform-origin: top left;
+    background-color: #ff0000;
+}
+
+#box2 {
+    transform-origin: top right;
+    background-color: #f4f804;
+}
+
+#box3 {
+    transform-origin: top left;
+    background-color: #2f00ff;
+}
+
+#box4 {
+    transform-origin: top right;
+    background-color: #15fd00;
+}
+
+.container:hover #box1 {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+}
+
+.container:hover #box2 {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+}
+
+.container:hover #box3 {
+    transform: translate(-50%, -50%) rotateZ(90deg);
+}
+
+.container:hover #box4 {
+    transform: translate(-50%, -50%) rotateZ(-90deg);
+} 
